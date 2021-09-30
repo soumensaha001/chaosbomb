@@ -1,4 +1,7 @@
-#!/bin/bashpython3 -m venv ~/.venvs/chaostk. ~/.venvs/chaostk/bin/activatepip install -U chaostoolkit
+#!/bin/bash
+python3 -m venv ~/.venvs/chaostk
+. ~/.venvs/chaostk/bin/activate
+pip install -U chaostoolkit
 pip install -U chaostoolkit-kubernetes
 git clone https://github.com/soumensaha001/chaostoolkit-experiments.git
 cd chaostoolkit-experiments
